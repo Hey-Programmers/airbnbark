@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/638d441c12.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <title>airbnbark</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              ubuntu: "Ubuntu, sans-serif",
+              nanum: "Nanum Gothic, san-serif",
+            }
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="flex justify-between items-center px-4 py-4">
+      <div class="flex flex-col items-center">
+        <img class="w-16" src="./images/dog_logo.png" />
+        <div class="text-xl font-ubuntu text-orange-400">
+          airbn<span class="text-sky-600">bark</span>
+        </div>
+      </div>
+      <i class="fa-solid fa-bars text-3xl text-stone-500 mr-4 sm:hidden"></i>
+      <div class="hidden sm:flex flex-1 justify-around text-xl font-ubuntu text-stone-500">
+        <a class="m-4 hover:text-sky-400" href="#mission">mission</a>
+        <a class="m-4" href="#team">team</a>
+        <a class="m-4" href="#testimonials">testimonials</a>
+        <a class="m-4" href="#contact">contact</a>
+      </div>
+    </div>
+    <div class="flex flex-col items-center pb-12">
+      <div class="px-4 flex justify-center">
+        <img class="w-96" src="./images/hero.png" />
+      </div>
+      <div class="font-ubuntu text-xl text-stone-500 flex flex-col items-start mx-2">
+        <div class="text-3xl">
+          The best site for dogsitters
+        </div>
+        <div class="my-2">
+          Find dogsitters on airbnbark for your best friend. Treats included.
+        </div>
+        <button class="bg-sky-600 text-white px-4 py-1 rounded-lg my-2">sign up</button>
+      </div>
+    </div>
+    <div class="bg-orange-400 text-white font-nanum flex flex-col items-center py-8">
+      <div id="mission" class="font-ubuntu text-2xl mb-2">
+        Mission
+      </div>
+      <div class="mx-8 sm:mx-24">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <img class="w-16 my-4" src="./images/dog_white.png"/>
+    </div>
+    <div class="py-4 flex flex-col items-center pt-16">
+      <div id="features" class="font-ubuntu text-2xl mb-2 text-stone-500">
+        Features
+      </div>
+      <div class="p-4 flex flex-col sm:flex-row text-stone-500">
+        <div class="m-4">
+          <div class="m-8">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-solid fa-bone text-xl text-blue-500"></i> Find great dog walkers
+            </div>
+            <div class="font-nanum"> 
+              Man braid selvage chartreuse distillery pug, disrupt swag godard af dreamcatcher heirloom bushwick irony. Shabby wolf moon affogato, prism ethical ugh craft beer cray. Heirloom seitan semiotics butcher, polaroid vape aesthetic offal 3 wolf moon.
+            </div>
+          </div>
+          <div class="m-8">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-solid fa-dog text-xl text-orange-500"></i> Experienced dog sitters
+            </div>
+            <div class="font-nanum"> 
+              Man braid selvage chartreuse distillery pug, disrupt swag godard af dreamcatcher heirloom bushwick irony. Shabby wolf moon affogato, prism ethical ugh craft beer cray. Heirloom seitan semiotics butcher, polaroid vape aesthetic offal 3 wolf moon.
+            </div>
+          </div>
+          <div class="m-8">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-solid fa-house-chimney-heart text-xl text-blue-500"></i> Make dog friends
+            </div>
+            <div class="font-nanum"> 
+              Man braid selvage chartreuse distillery pug, disrupt swag godard af dreamcatcher heirloom bushwick irony. Shabby wolf moon affogato, prism ethical ugh craft beer cray. Heirloom seitan semiotics butcher, polaroid vape aesthetic offal 3 wolf moon.
+            </div>
+          </div>
+        </div>
+        <div class="m-4">
+          <div class="m-8">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-solid fa-paw text-xl text-orange-500"></i> Company for your dog
+            </div>
+            <div class="font-nanum"> 
+              Man braid selvage chartreuse distillery pug, disrupt swag godard af dreamcatcher heirloom bushwick irony. Shabby wolf moon affogato, prism ethical ugh craft beer cray. Heirloom seitan semiotics butcher, polaroid vape aesthetic offal 3 wolf moon.
+            </div>
+          </div>
+          <div class="m-8">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-solid fa-hand-holding-heart text-xl text-blue-500"></i> Donate to a good cause
+            </div>
+            <div class="font-nanum"> 
+              Man braid selvage chartreuse distillery pug, disrupt swag godard af dreamcatcher heirloom bushwick irony. Shabby wolf moon affogato, prism ethical ugh craft beer cray. Heirloom seitan semiotics butcher, polaroid vape aesthetic offal 3 wolf moon.
+            </div>
+          </div>
+          <div class="m-8">
+            <div class="font-ubuntu text-xl mb-2">
+              <i class="fa-solid fa-tennis-ball text-xl text-orange-500"></i> Fun activities
+            </div>
+            <div class="font-nanum"> 
+              Man braid selvage chartreuse distillery pug, disrupt swag godard af dreamcatcher heirloom bushwick irony. Shabby wolf moon affogato, prism ethical ugh craft beer cray. Heirloom seitan semiotics butcher, polaroid vape aesthetic offal 3 wolf moon.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-8 flex flex-col items-center">
+      <div id="team" class="font-ubuntu text-2xl mb-2 text-stone-500">
+        team
+      </div>
+      <div class="text-stone-500 flex flex-wrap justify-center">
+        <div class="flex flex-col items-center w-80 m-4">
+          <img class="w-40 rounded-full border-4 border-orange-400" src="./images/team_me_portrait.png"/>
+          <div class="font-ubuntu text-lg mt-2">
+            Marielle E
+          </div>
+          <div class="font-ubuntu text-lg my-2 text-orange-500">
+            Chief Executive Officer
+          </div>
+          <div class="font-nanum">
+            Craft beer swag forage truffaut messenger bag subway tile farm-to-table air plant. Etsy master cleanse street art, everyday carry dreamcatcher disrupt umami. Tacos brunch roof party stumptown godard. Food truck twee taxidermy cray tofu activated charcoal humblebrag.
+          </div>
+        </div>
+        <div class="flex flex-col items-center w-80 m-4">
+          <img class="w-40 rounded-full border-4 border-orange-400" src="./images/team_az_portrait.png"/>
+          <div class="font-ubuntu text-lg mt-2">
+            Alvin Z
+          </div>
+          <div class="font-ubuntu text-lg my-2 text-orange-500">
+            Chief Technical Officer
+          </div>
+          <div class="font-nanum">
+            Craft beer swag forage truffaut messenger bag subway tile farm-to-table air plant. Etsy master cleanse street art, everyday carry dreamcatcher disrupt umami. Tacos brunch roof party stumptown godard. Food truck twee taxidermy cray tofu activated charcoal humblebrag.
+          </div>
+        </div>
+         <div class="flex flex-col items-center w-80 m-4">
+          <img class="w-40 rounded-full border-4 border-orange-400" src="./images/team_mishka_portrait.png"/>
+          <div class="font-ubuntu text-lg mt-2">
+            Mishka P
+          </div>
+          <div class="font-ubuntu text-lg my-2 text-orange-500">
+            Chief Doge Officer
+          </div>
+          <div class="font-nanum">
+            Craft beer swag forage truffaut messenger bag subway tile farm-to-table air plant. Etsy master cleanse street art, everyday carry dreamcatcher disrupt umami. Tacos brunch roof party stumptown godard. Food truck twee taxidermy cray tofu activated charcoal humblebrag.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-sky-600 flex flex-col items-center py-8">
+      <div id="testimonials" class="font-ubuntu text-2xl mb-2 text-white">
+        Testimonials
+      </div>
+      <div class="flex flex-wrap justify-center">
+        <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+          <img class="w-24" src="./images/avatar_1.png"/>
+          <div class="font-ubuntu text-orange-600  text-lg">
+            Alice
+          </div>
+          <div class="font-nanum text-stone-600">
+            <i class="fa-solid fa-quote-left text-orange-500"></i>Sriracha godard ramps, palo santo raw denim tilde man braid tote bag jean shorts chartreuse keytar gluten-free hell of. Pork belly ethical polaroid raw denim 8-bit banh mi brunch hashtag coloring book cray helvetica.<i class="fa-solid fa-quote-right text-orange-500"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+          <img class="w-24" src="./images/avatar_4.png"/>
+          <div class="font-ubuntu text-orange-600  text-lg">
+            Sam
+          </div>
+          <div class="font-nanum text-stone-600">
+            <i class="fa-solid fa-quote-left text-orange-500"></i>Sriracha godard ramps, palo santo raw denim tilde man braid tote bag jean shorts chartreuse keytar gluten-free hell of. Pork belly ethical polaroid raw denim 8-bit banh mi brunch hashtag coloring book cray helvetica.<i class="fa-solid fa-quote-right text-orange-500"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+          <img class="w-24" src="./images/avatar_6.png"/>
+          <div class="font-ubuntu text-orange-600  text-lg">
+            Jen
+          </div>
+          <div class="font-nanum text-stone-600">
+            <i class="fa-solid fa-quote-left text-orange-500"></i>Sriracha godard ramps, palo santo raw denim tilde man braid tote bag jean shorts chartreuse keytar gluten-free hell of. Pork belly ethical polaroid raw denim 8-bit banh mi brunch hashtag coloring book cray helvetica.<i class="fa-solid fa-quote-right text-orange-500"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+          <img class="w-24" src="./images/avatar_5.png"/>
+          <div class="font-ubuntu text-orange-600  text-lg">
+            Sara
+          </div>
+          <div class="font-nanum text-stone-600">
+            <i class="fa-solid fa-quote-left text-orange-500"></i>Sriracha godard ramps, palo santo raw denim tilde man braid tote bag jean shorts chartreuse keytar gluten-free hell of. Pork belly ethical polaroid raw denim 8-bit banh mi brunch hashtag coloring book cray helvetica.<i class="fa-solid fa-quote-right text-orange-500"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+          <img class="w-24" src="./images/avatar_3.png"/>
+          <div class="font-ubuntu text-orange-600  text-lg">
+            Cindy
+          </div>
+          <div class="font-nanum text-stone-600">
+            <i class="fa-solid fa-quote-left text-orange-500"></i>Sriracha godard ramps, palo santo raw denim tilde man braid tote bag jean shorts chartreuse keytar gluten-free hell of. Pork belly ethical polaroid raw denim 8-bit banh mi brunch hashtag coloring book cray helvetica.<i class="fa-solid fa-quote-right text-orange-500"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+          <img class="w-24" src="./images/avatar_2.png"/>
+          <div class="font-ubuntu text-orange-600  text-lg">
+            Sadia
+          </div>
+          <div class="font-nanum text-stone-600">
+            <i class="fa-solid fa-quote-left text-orange-500"></i>Sriracha godard ramps, palo santo raw denim tilde man braid tote bag jean shorts chartreuse keytar gluten-free hell of. Pork belly ethical polaroid raw denim 8-bit banh mi brunch hashtag coloring book cray helvetica.<i class="fa-solid fa-quote-right text-orange-500"></i>
+          </div>
+        </div>
+      </div>
+      <img class="w-24 my-4" src="./images/play_white.png"/>
+    </div>
+    <div class="py-8 flex flex-col items-center">
+      <div id="faq" class="font-ubuntu text-sky-700 text-xl">
+        Frequently Asked Questions
+      </div>
+      <div class="font-nanum">
+        <div class="border-l-4 border-orange-500 p-2 mx-8 my-4">
+          <div class="my-2 text-lg text-stone-600">
+            Small batch venmo iceland williamsburg, edison bulb migas?
+          </div>
+          <div class="my-2 text-stone-500">
+            Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out cold-pressed crucifix bicycle rights seitan craft.
+          </div>
+        </div>
+        <div class="border-l-4 border-sky-500 p-2 mx-8 my-4">
+          <div class="my-2 text-lg text-stone-600">
+            Tousled salvia semiotics roof party, helvetica sriracha shaman. Blog lomo echo park edison bulb, asymmetrical artisan celiac before they sold out?
+          </div>
+          <div class="my-2 text-stone-500">
+            Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out cold-pressed crucifix bicycle rights seitan craft.
+          </div>
+        </div>
+        <div class="border-l-4 border-orange-500 p-2 mx-8 my-4">
+          <div class="my-2 text-lg text-stone-600">
+            Coloring book taxidermy tacos, you probably haven't heard of them pour-over mixtape green juice?
+          </div>
+          <div class="my-2 text-stone-500">
+            Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out cold-pressed crucifix bicycle rights seitan craft.
+          </div>
+        </div>
+        <div class="border-l-4 border-sky-500 p-2 mx-8 my-4">
+          <div class="my-2 text-lg text-stone-600">
+            Flexitarian celiac tumblr health goth cronut lyft. Mlkshk humblebrag cloud bread?
+          </div>
+          <div class="my-2 text-stone-500">
+            Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out cold-pressed crucifix bicycle rights seitan craft.
+          </div>
+        </div>
+        <div class="border-l-4 border-orange-500 p-2 mx-8 my-4">
+          <div class="my-2 text-lg text-stone-600">
+            Small batch venmo iceland williamsburg, edison bulb migas?
+          </div>
+          <div class="my-2 text-stone-500">
+            Tofu enamel pin selfies activated charcoal, kogi actually man braid. Knausgaard pour-over meh pickled occupy PBR&B. Small batch venmo iceland. Poutine tilde unicorn retro, mixtape green juice they sold out cold-pressed crucifix bicycle rights seitan craft.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center py-8">
+      <div class="rounded-lg border border-stone-200 shadow-md flex flex-col bg-stone-100">
+        <div id="contact" class="font-ubuntu text-xl text-white bg-gradient-to-r from-orange-400 to-orange-200 px-4 py-2 rounded-t-lg">
+          Contact Us
+        </div>
+        <div class="mt-2">
+          <input placeholder="first name" class="p-1 m-2 border border-stone-200" />
+          <input placeholder="last name" class="p-1 m-2 border border-stone-200" />
+        </div>
+        <input placeholder="email" class="p-1 m-2 border border-stone-200" />
+        <input placeholder="your question" class="p-1 m-2 border border-stone-200" />
+        <button class="bg-orange-300 px-4 py-2 text-white rounded-lg m-2">
+          <i class="fa-solid fa-paper-plane mr-1"></i>send
+        </button>
+      </div>
+    </div>
+    <div class="bg-sky-700 flex text-stone-200 font-nanum p-12 text-sm justify-between">
+      <div class="flex">
+        <div class="flex flex-col items-center mr-8">
+          <img class="w-16" src="./images/dog_logo.png" />
+          <div class="text-xl font-ubuntu text-orange-400">
+            airbn<span class="text-sky-300">bark</span>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <a href="#mission" class="py-1 px-2 hover:text-white">mission</a>
+          <a href="#features" class="py-1 px-2">features</a>
+          <a href="#team" class="py-1 px-2">team</a>
+        </div>
+        <div class="flex flex-col">
+          <a href="#testimonials" class="py-1 px-2">testimonials</a>
+          <a href="#faq" class="py-1 px-2">FAQ</a>
+        </div>
+      </div>
+      <div class="text-2xl">
+        <i class="hover:text-orange-300 cursor-pointer fa-brands fa-instagram-square"></i>
+        <i class="hover:text-orange-300 fa-brands fa-facebook-square"></i>
+        <i class="hover:text-orange-300 fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+  </body>
+</html>
